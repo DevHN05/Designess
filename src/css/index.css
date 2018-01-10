@@ -1,3 +1,8 @@
+/* 도움말:
+ * 텍스트 그림자 - x축 y축 블러_크기 색상
+ * 도형 그림자 - x축 y축 블러_크기 사이즈_크기 색상
+ */
+
 /* Font Setting */
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
@@ -7,6 +12,11 @@ body {
 }
 
 /* Header */
+.head {
+    height: 75px;
+    box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
 .header {
     margin: 0 auto;
     padding: 8px 0;
