@@ -9,12 +9,11 @@
 body {
     font-family: "Noto Sans KR", sans-serif;
     margin: 0;
-    z-index: 1;
 }
 
 /* Header */
 .head {
-    z-index: 2;
+    z-index: 5;
     position: fixed;
     top: 0;
     width: 100%;
@@ -51,5 +50,14 @@ body {
 
 /* body */
 .body {
+    position: relative !important;
+    z-index: 1;
+    margin: 75px auto 0 auto;
+    width: 1080px;
     height: 5000px;
+}
+
+.part1 p {
+    margin: 0;
+    padding: 16px;
 }
