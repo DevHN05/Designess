@@ -9,7 +9,7 @@ body {
 /* Header */
 .header {
     margin: 0 auto;
-    padding: 16px 0;
+    padding: 8px 0;
     display: block;
     width: 1080px;
     height: 50px;
@@ -21,4 +21,15 @@ body {
     height: 32px;
     display: inline-block;
     text-align: center;
+    transition-duration: .25s;
+    transition-timing-function: ease;
+}
+
+.icon {
+    position: relative !important;
+    top: 10px;
+}
+
+.menu1:hover, .menu2:hover, .menu3:hover, .menu4:hover {
+    font-weight: 600;
 }
