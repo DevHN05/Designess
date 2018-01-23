@@ -1,2 +1,4 @@
 
 *.ai
+*.xml
+.idea/workspace.xml
