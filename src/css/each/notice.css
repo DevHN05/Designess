@@ -53,12 +53,40 @@ body {
 /* body */
 .body {
     z-index: 1;
-    margin: 100px auto 0 auto;
+    margin: 95px auto 0 auto;
     width: 1080px;
     height: 5000px;
 }
 
 .part1 p {
     margin: 0;
-    padding: 16px;
+    padding: 10px 16px;
+}
+
+/* noticebox */
+.noticebox {
+    margin: 20px 0;
+    width: 1080px;
+    height: 90px;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15);
+    transition-duration: .25s;
+    transition-timing-function: ease;
+}
+
+.noticebox:hover {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.noticetitle {
+    position: relative !important;
+    top: 8px !important;
+    margin: 0 16px !important;
+    padding: 0 !important;
+}
+
+.noticedesc {
+    margin: 20px 16px !important;
+    padding: 0 !important;
 }
