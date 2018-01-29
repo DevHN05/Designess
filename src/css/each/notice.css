@@ -1,0 +1,64 @@
+/* 도움말:
+ * 텍스트 그림자 - x축 y축 블러_크기 색상
+ * 도형 그림자 - x축 y축 블러_크기 사이즈_크기 색상
+ */
+
+/* Font Setting */
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700);
+
+body {
+    font-family: "Montserrat", "Noto Sans KR", sans-serif;
+    margin: 0;
+}
+
+/* Header */
+.head {
+    position: fixed !important;
+    z-index: 10;
+    top: 0;
+    width: 100% !important;
+    height: 75px;
+    background-color: white;
+    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.15);
+}
+
+.header {
+    margin: 0 auto;
+    padding: 8px 0;
+    display: block;
+    width: 1080px;
+    height: 50px;
+    align-content: center;
+}
+
+.menu1, .menu2, .menu3, .menu4, .icon {
+    width: 210px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    transition-duration: .25s;
+    transition-timing-function: ease;
+}
+
+.icon {
+    position: relative !important;
+    top: 13px;
+}
+
+.menu1:hover, .menu2:hover, .menu3:hover, .menu4:hover {
+    font-weight: 800;
+}
+
+/* body */
+.body {
+    z-index: 1;
+    margin: 100px auto 0 auto;
+    width: 1080px;
+    height: 5000px;
+}
+
+.part1 p {
+    margin: 0;
+    padding: 16px;
+}
