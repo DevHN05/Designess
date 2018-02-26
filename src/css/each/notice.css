@@ -20,7 +20,7 @@ body {
     width: 100% !important;
     height: 75px;
     background-color: white;
-    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 5px 1px rgba(59, 68, 80, 0.05);
 }
 
 .header {
